@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from product import Product
+from produk import Produk
 
 class Telor:
     
@@ -9,12 +9,12 @@ class Telor:
     def get_nama(self):
         return self.__nama
     
-    def set_harga(self, nama : str):
+    def set_harga(self, harga : float):
         self.__harga = harga
         
     def get_harga(self):
         return self.__harga
     
-    def  show_info ( self,nama,harga ):
+    def  show_info ( self):
         print(self.__nama)
         print(self.__harga)

@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 
 class Produk:
     
+    def __init__(self, nama):
+        self.nama = None
+    
     def set_nama(self, nama : str):
         self.__nama = nama
         
