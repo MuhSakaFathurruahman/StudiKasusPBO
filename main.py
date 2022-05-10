@@ -1,0 +1,1 @@
+print("ini adalah contoh")
